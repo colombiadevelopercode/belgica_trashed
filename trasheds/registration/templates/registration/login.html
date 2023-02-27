@@ -1,0 +1,47 @@
+
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Iniciar sesión{% endblock %}
+{% block content %}
+<script>
+    document.getElementById("about_show").style.display = "none";
+    document.getElementById("services_show").style.display = "none";
+    document.getElementById("contact_show").style.display = "none";
+
+</script>
+
+<style>.errorlist{color:red;}</style>
+
+<link href="{% static 'core/vendor/materialize/css/materialize.min.css' %}" rel="stylesheet">
+<link href="{% static 'core/vendor/materialize/css/materialize.css' %}" rel="stylesheet">
+
+<div class="form-log" >
+    <form action="" method="post" class="row login">{% csrf_token %}
+        <div class="col s12 l4 offset-l4">
+            <div class="card">  
+                
+                <div class="card-content">
+                    <div class="form-field">
+                        <label for="username" >Username</label>
+                        <input type="text" id="id_username" name="username" class="white-text" autocomplete="off" required>
+                    </div><br>
+                    <div class="form-field">
+                        <label for="password" >password</label>
+                        <input type="password" id="id_password" name="password" class="white-text" autocomplete="off" required>
+                    </div><br> 
+                    <div class="form-field center-align">
+                        <button class="btn-large black white-text" type="submit">Ingresar</button>
+                    </div><br> 
+                   
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+
+{% endblock %}
+
+

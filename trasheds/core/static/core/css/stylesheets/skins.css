@@ -1,0 +1,1258 @@
+body.colorSchemeRed a {
+  color: #e92b05;
+}
+body.colorSchemeRed a:hover {
+  color: #999;
+}
+body.colorSchemeRed ul.shortcode-list i {
+  color: #e92b05;
+}
+body.colorSchemeRed .big-social i {
+  background-color: #e92b05;
+  border: 3px solid #e92b05;
+}
+body.colorSchemeRed .big-social i:hover {
+  border: 3px solid #e92b05;
+  background-color: rgba(233, 43, 5, 0);
+}
+body.colorSchemeRed .button {
+  color: #fff;
+  background: #e92b05;
+  border: 2px solid #e92b05;
+}
+body.colorSchemeRed .button:hover {
+  color: #fff;
+  background-color: rgba(233, 43, 5, 0.8);
+}
+body.colorSchemeRed .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeRed .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeRed ul.info i {
+  border: 1px solid #e92b05;
+}
+body.colorSchemeRed ul.info i:hover {
+  background: #e92b05;
+}
+body.colorSchemeRed .pager a {
+  color: #999;
+}
+body.colorSchemeRed .pager a:hover {
+  color: #e92b05;
+}
+body.colorSchemeRed #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeRed #footer ul.socials a:hover i {
+  background: #e92b05;
+}
+body.colorSchemeRed .modIconText .icon-text-circle:hover i {
+  color: #e92b05;
+}
+body.colorSchemeRed .modSectionHeader .special-title h2::after {
+  background: #e92b05;
+}
+body.colorSchemeRed .modMilestone i {
+  color: #fff;
+  background: #e92b05;
+}
+body.colorSchemeRed .modTeamMember ul i {
+  background: #e92b05;
+}
+body.colorSchemeRed .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeRed .modBlogPost h4 a:hover {
+  color: #e92b05;
+}
+body.colorSchemeRed .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeRed .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeRed .modBlogPost.big h3 a:hover {
+  color: #e92b05;
+}
+body.colorSchemeRed .modBarGraph .bars p.highlighted {
+  background: #e92b05;
+}
+body.colorSchemeRed .modBoxedTextSlider .box i {
+  color: #e92b05;
+}
+body.colorSchemeRed .modPriceBox.featured .info {
+  border-top: 4px solid #e92b05;
+}
+body.colorSchemeRed .modGallery .gallery-nav li.current {
+  border: 1px solid #e92b05;
+}
+body.colorSchemeRed .modGallery .gallery-nav li.current a {
+  color: #e92b05;
+}
+body.colorSchemeRed .links a {
+  color: #999;
+}
+body.colorSchemeRed .links a:hover {
+  color: #333;
+}
+body.colorSchemeRed .modBoxedSlider .caption p {
+  background: #e92b05;
+}
+body.colorSchemeRed .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #e92b05;
+}
+body.colorSchemeRed .modMasonryGallery .gallery-nav li.current a {
+  color: #e92b05;
+}
+
+body.colorSchemePink a {
+  color: #e90576;
+}
+body.colorSchemePink a:hover {
+  color: #999;
+}
+body.colorSchemePink ul.shortcode-list i {
+  color: #e90576;
+}
+body.colorSchemePink .big-social i {
+  background-color: #e90576;
+  border: 3px solid #e90576;
+}
+body.colorSchemePink .big-social i:hover {
+  border: 3px solid #e90576;
+  background-color: rgba(233, 5, 118, 0);
+}
+body.colorSchemePink .button {
+  color: #fff;
+  background: #e90576;
+  border: 2px solid #e90576;
+}
+body.colorSchemePink .button:hover {
+  color: #fff;
+  background-color: rgba(233, 5, 118, 0.8);
+}
+body.colorSchemePink .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemePink .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemePink ul.info i {
+  border: 1px solid #e90576;
+}
+body.colorSchemePink ul.info i:hover {
+  background: #e90576;
+}
+body.colorSchemePink .pager a {
+  color: #999;
+}
+body.colorSchemePink .pager a:hover {
+  color: #e90576;
+}
+body.colorSchemePink #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemePink #footer ul.socials a:hover i {
+  background: #e90576;
+}
+body.colorSchemePink .modIconText .icon-text-circle:hover i {
+  color: #e90576;
+}
+body.colorSchemePink .modSectionHeader .special-title h2::after {
+  background: #e90576;
+}
+body.colorSchemePink .modMilestone i {
+  color: #fff;
+  background: #e90576;
+}
+body.colorSchemePink .modTeamMember ul i {
+  background: #e90576;
+}
+body.colorSchemePink .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemePink .modBlogPost h4 a:hover {
+  color: #e90576;
+}
+body.colorSchemePink .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemePink .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemePink .modBlogPost.big h3 a:hover {
+  color: #e90576;
+}
+body.colorSchemePink .modBarGraph .bars p.highlighted {
+  background: #e90576;
+}
+body.colorSchemePink .modBoxedTextSlider .box i {
+  color: #e90576;
+}
+body.colorSchemePink .modPriceBox.featured .info {
+  border-top: 4px solid #e90576;
+}
+body.colorSchemePink .modGallery .gallery-nav li.current {
+  border: 1px solid #e90576;
+}
+body.colorSchemePink .modGallery .gallery-nav li.current a {
+  color: #e90576;
+}
+body.colorSchemePink .links a {
+  color: #999;
+}
+body.colorSchemePink .links a:hover {
+  color: #333;
+}
+body.colorSchemePink .modBoxedSlider .caption p {
+  background: #e90576;
+}
+body.colorSchemePink .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #e90576;
+}
+body.colorSchemePink .modMasonryGallery .gallery-nav li.current a {
+  color: #e90576;
+}
+
+body.colorSchemeLight-green a {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green a:hover {
+  color: #999;
+}
+body.colorSchemeLight-green ul.shortcode-list i {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .big-social i {
+  background-color: #09e4bd;
+  border: 3px solid #09e4bd;
+}
+body.colorSchemeLight-green .big-social i:hover {
+  border: 3px solid #09e4bd;
+  background-color: rgba(9, 228, 189, 0);
+}
+body.colorSchemeLight-green .button {
+  color: #fff;
+  background: #09e4bd;
+  border: 2px solid #09e4bd;
+}
+body.colorSchemeLight-green .button:hover {
+  color: #fff;
+  background-color: rgba(9, 228, 189, 0.8);
+}
+body.colorSchemeLight-green .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeLight-green .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeLight-green ul.info i {
+  border: 1px solid #09e4bd;
+}
+body.colorSchemeLight-green ul.info i:hover {
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .pager a {
+  color: #999;
+}
+body.colorSchemeLight-green .pager a:hover {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeLight-green #footer ul.socials a:hover i {
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .modIconText .icon-text-circle:hover i {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .modSectionHeader .special-title h2::after {
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .modMilestone i {
+  color: #fff;
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .modTeamMember ul i {
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeLight-green .modBlogPost h4 a:hover {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeLight-green .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeLight-green .modBlogPost.big h3 a:hover {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .modBarGraph .bars p.highlighted {
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .modBoxedTextSlider .box i {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .modPriceBox.featured .info {
+  border-top: 4px solid #09e4bd;
+}
+body.colorSchemeLight-green .modGallery .gallery-nav li.current {
+  border: 1px solid #09e4bd;
+}
+body.colorSchemeLight-green .modGallery .gallery-nav li.current a {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .links a {
+  color: #999;
+}
+body.colorSchemeLight-green .links a:hover {
+  color: #333;
+}
+body.colorSchemeLight-green .modBoxedSlider .caption p {
+  background: #09e4bd;
+}
+body.colorSchemeLight-green .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #09e4bd;
+}
+body.colorSchemeLight-green .modMasonryGallery .gallery-nav li.current a {
+  color: #09e4bd;
+}
+body.colorSchemeLight-green .modMilestone i {
+  color: #000;
+  background: #09e4bd;
+}
+
+body.colorSchemeDark-green a {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green a:hover {
+  color: #999;
+}
+body.colorSchemeDark-green ul.shortcode-list i {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .big-social i {
+  background-color: #29c6aa;
+  border: 3px solid #29c6aa;
+}
+body.colorSchemeDark-green .big-social i:hover {
+  border: 3px solid #29c6aa;
+  background-color: rgba(41, 198, 170, 0);
+}
+body.colorSchemeDark-green .button {
+  color: #fff;
+  background: #29c6aa;
+  border: 2px solid #29c6aa;
+}
+body.colorSchemeDark-green .button:hover {
+  color: #fff;
+  background-color: rgba(41, 198, 170, 0.8);
+}
+body.colorSchemeDark-green .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeDark-green .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeDark-green ul.info i {
+  border: 1px solid #29c6aa;
+}
+body.colorSchemeDark-green ul.info i:hover {
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .pager a {
+  color: #999;
+}
+body.colorSchemeDark-green .pager a:hover {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeDark-green #footer ul.socials a:hover i {
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .modIconText .icon-text-circle:hover i {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .modSectionHeader .special-title h2::after {
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .modMilestone i {
+  color: #fff;
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .modTeamMember ul i {
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeDark-green .modBlogPost h4 a:hover {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeDark-green .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeDark-green .modBlogPost.big h3 a:hover {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .modBarGraph .bars p.highlighted {
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .modBoxedTextSlider .box i {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .modPriceBox.featured .info {
+  border-top: 4px solid #29c6aa;
+}
+body.colorSchemeDark-green .modGallery .gallery-nav li.current {
+  border: 1px solid #29c6aa;
+}
+body.colorSchemeDark-green .modGallery .gallery-nav li.current a {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .links a {
+  color: #999;
+}
+body.colorSchemeDark-green .links a:hover {
+  color: #333;
+}
+body.colorSchemeDark-green .modBoxedSlider .caption p {
+  background: #29c6aa;
+}
+body.colorSchemeDark-green .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #29c6aa;
+}
+body.colorSchemeDark-green .modMasonryGallery .gallery-nav li.current a {
+  color: #29c6aa;
+}
+body.colorSchemeDark-green .modMilestone i {
+  color: #000;
+  background: #29c6aa;
+}
+
+body.colorSchemeCyan a {
+  color: #06e5f9;
+}
+body.colorSchemeCyan a:hover {
+  color: #999;
+}
+body.colorSchemeCyan ul.shortcode-list i {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .big-social i {
+  background-color: #06e5f9;
+  border: 3px solid #06e5f9;
+}
+body.colorSchemeCyan .big-social i:hover {
+  border: 3px solid #06e5f9;
+  background-color: rgba(6, 229, 249, 0);
+}
+body.colorSchemeCyan .button {
+  color: #fff;
+  background: #06e5f9;
+  border: 2px solid #06e5f9;
+}
+body.colorSchemeCyan .button:hover {
+  color: #fff;
+  background-color: rgba(6, 229, 249, 0.8);
+}
+body.colorSchemeCyan .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeCyan .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeCyan ul.info i {
+  border: 1px solid #06e5f9;
+}
+body.colorSchemeCyan ul.info i:hover {
+  background: #06e5f9;
+}
+body.colorSchemeCyan .pager a {
+  color: #999;
+}
+body.colorSchemeCyan .pager a:hover {
+  color: #06e5f9;
+}
+body.colorSchemeCyan #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeCyan #footer ul.socials a:hover i {
+  background: #06e5f9;
+}
+body.colorSchemeCyan .modIconText .icon-text-circle:hover i {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .modSectionHeader .special-title h2::after {
+  background: #06e5f9;
+}
+body.colorSchemeCyan .modMilestone i {
+  color: #fff;
+  background: #06e5f9;
+}
+body.colorSchemeCyan .modTeamMember ul i {
+  background: #06e5f9;
+}
+body.colorSchemeCyan .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeCyan .modBlogPost h4 a:hover {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeCyan .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeCyan .modBlogPost.big h3 a:hover {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .modBarGraph .bars p.highlighted {
+  background: #06e5f9;
+}
+body.colorSchemeCyan .modBoxedTextSlider .box i {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .modPriceBox.featured .info {
+  border-top: 4px solid #06e5f9;
+}
+body.colorSchemeCyan .modGallery .gallery-nav li.current {
+  border: 1px solid #06e5f9;
+}
+body.colorSchemeCyan .modGallery .gallery-nav li.current a {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .links a {
+  color: #999;
+}
+body.colorSchemeCyan .links a:hover {
+  color: #333;
+}
+body.colorSchemeCyan .modBoxedSlider .caption p {
+  background: #06e5f9;
+}
+body.colorSchemeCyan .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #06e5f9;
+}
+body.colorSchemeCyan .modMasonryGallery .gallery-nav li.current a {
+  color: #06e5f9;
+}
+body.colorSchemeCyan .modMilestone i {
+  color: #000;
+  background: #06e5f9;
+}
+
+body.colorSchemeGrey-blue a {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue a:hover {
+  color: #999;
+}
+body.colorSchemeGrey-blue ul.shortcode-list i {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue .big-social i {
+  background-color: #88b2b6;
+  border: 3px solid #88b2b6;
+}
+body.colorSchemeGrey-blue .big-social i:hover {
+  border: 3px solid #88b2b6;
+  background-color: rgba(136, 178, 182, 0);
+}
+body.colorSchemeGrey-blue .button {
+  color: #fff;
+  background: #88b2b6;
+  border: 2px solid #88b2b6;
+}
+body.colorSchemeGrey-blue .button:hover {
+  color: #fff;
+  background-color: rgba(136, 178, 182, 0.8);
+}
+body.colorSchemeGrey-blue .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeGrey-blue .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeGrey-blue ul.info i {
+  border: 1px solid #88b2b6;
+}
+body.colorSchemeGrey-blue ul.info i:hover {
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .pager a {
+  color: #999;
+}
+body.colorSchemeGrey-blue .pager a:hover {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeGrey-blue #footer ul.socials a:hover i {
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .modIconText .icon-text-circle:hover i {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue .modSectionHeader .special-title h2::after {
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .modMilestone i {
+  color: #fff;
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .modTeamMember ul i {
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeGrey-blue .modBlogPost h4 a:hover {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeGrey-blue .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeGrey-blue .modBlogPost.big h3 a:hover {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue .modBarGraph .bars p.highlighted {
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .modBoxedTextSlider .box i {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue .modPriceBox.featured .info {
+  border-top: 4px solid #88b2b6;
+}
+body.colorSchemeGrey-blue .modGallery .gallery-nav li.current {
+  border: 1px solid #88b2b6;
+}
+body.colorSchemeGrey-blue .modGallery .gallery-nav li.current a {
+  color: #88b2b6;
+}
+body.colorSchemeGrey-blue .links a {
+  color: #999;
+}
+body.colorSchemeGrey-blue .links a:hover {
+  color: #333;
+}
+body.colorSchemeGrey-blue .modBoxedSlider .caption p {
+  background: #88b2b6;
+}
+body.colorSchemeGrey-blue .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #88b2b6;
+}
+body.colorSchemeGrey-blue .modMasonryGallery .gallery-nav li.current a {
+  color: #88b2b6;
+}
+
+body.colorSchemeOrange a {
+  color: #f99b06;
+}
+body.colorSchemeOrange a:hover {
+  color: #999;
+}
+body.colorSchemeOrange ul.shortcode-list i {
+  color: #f99b06;
+}
+body.colorSchemeOrange .big-social i {
+  background-color: #f99b06;
+  border: 3px solid #f99b06;
+}
+body.colorSchemeOrange .big-social i:hover {
+  border: 3px solid #f99b06;
+  background-color: rgba(249, 155, 6, 0);
+}
+body.colorSchemeOrange .button {
+  color: #fff;
+  background: #f99b06;
+  border: 2px solid #f99b06;
+}
+body.colorSchemeOrange .button:hover {
+  color: #fff;
+  background-color: rgba(249, 155, 6, 0.8);
+}
+body.colorSchemeOrange .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeOrange .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeOrange ul.info i {
+  border: 1px solid #f99b06;
+}
+body.colorSchemeOrange ul.info i:hover {
+  background: #f99b06;
+}
+body.colorSchemeOrange .pager a {
+  color: #999;
+}
+body.colorSchemeOrange .pager a:hover {
+  color: #f99b06;
+}
+body.colorSchemeOrange #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeOrange #footer ul.socials a:hover i {
+  background: #f99b06;
+}
+body.colorSchemeOrange .modIconText .icon-text-circle:hover i {
+  color: #f99b06;
+}
+body.colorSchemeOrange .modSectionHeader .special-title h2::after {
+  background: #f99b06;
+}
+body.colorSchemeOrange .modMilestone i {
+  color: #fff;
+  background: #f99b06;
+}
+body.colorSchemeOrange .modTeamMember ul i {
+  background: #f99b06;
+}
+body.colorSchemeOrange .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeOrange .modBlogPost h4 a:hover {
+  color: #f99b06;
+}
+body.colorSchemeOrange .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeOrange .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeOrange .modBlogPost.big h3 a:hover {
+  color: #f99b06;
+}
+body.colorSchemeOrange .modBarGraph .bars p.highlighted {
+  background: #f99b06;
+}
+body.colorSchemeOrange .modBoxedTextSlider .box i {
+  color: #f99b06;
+}
+body.colorSchemeOrange .modPriceBox.featured .info {
+  border-top: 4px solid #f99b06;
+}
+body.colorSchemeOrange .modGallery .gallery-nav li.current {
+  border: 1px solid #f99b06;
+}
+body.colorSchemeOrange .modGallery .gallery-nav li.current a {
+  color: #f99b06;
+}
+body.colorSchemeOrange .links a {
+  color: #999;
+}
+body.colorSchemeOrange .links a:hover {
+  color: #333;
+}
+body.colorSchemeOrange .modBoxedSlider .caption p {
+  background: #f99b06;
+}
+body.colorSchemeOrange .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #f99b06;
+}
+body.colorSchemeOrange .modMasonryGallery .gallery-nav li.current a {
+  color: #f99b06;
+}
+body.colorSchemeOrange .modMilestone i {
+  color: #000;
+  background: #f99b06;
+}
+
+body.colorSchemeBlue a {
+  color: #2f93e0;
+}
+body.colorSchemeBlue a:hover {
+  color: #999;
+}
+body.colorSchemeBlue ul.shortcode-list i {
+  color: #2f93e0;
+}
+body.colorSchemeBlue .big-social i {
+  background-color: #2f93e0;
+  border: 3px solid #2f93e0;
+}
+body.colorSchemeBlue .big-social i:hover {
+  border: 3px solid #2f93e0;
+  background-color: rgba(47, 147, 224, 0);
+}
+body.colorSchemeBlue .button {
+  color: #fff;
+  background: #2f93e0;
+  border: 2px solid #2f93e0;
+}
+body.colorSchemeBlue .button:hover {
+  color: #fff;
+  background-color: rgba(47, 147, 224, 0.8);
+}
+body.colorSchemeBlue .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeBlue .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeBlue ul.info i {
+  border: 1px solid #2f93e0;
+}
+body.colorSchemeBlue ul.info i:hover {
+  background: #2f93e0;
+}
+body.colorSchemeBlue .pager a {
+  color: #999;
+}
+body.colorSchemeBlue .pager a:hover {
+  color: #2f93e0;
+}
+body.colorSchemeBlue #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeBlue #footer ul.socials a:hover i {
+  background: #2f93e0;
+}
+body.colorSchemeBlue .modIconText .icon-text-circle:hover i {
+  color: #2f93e0;
+}
+body.colorSchemeBlue .modSectionHeader .special-title h2::after {
+  background: #2f93e0;
+}
+body.colorSchemeBlue .modMilestone i {
+  color: #fff;
+  background: #2f93e0;
+}
+body.colorSchemeBlue .modTeamMember ul i {
+  background: #2f93e0;
+}
+body.colorSchemeBlue .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeBlue .modBlogPost h4 a:hover {
+  color: #2f93e0;
+}
+body.colorSchemeBlue .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeBlue .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeBlue .modBlogPost.big h3 a:hover {
+  color: #2f93e0;
+}
+body.colorSchemeBlue .modBarGraph .bars p.highlighted {
+  background: #2f93e0;
+}
+body.colorSchemeBlue .modBoxedTextSlider .box i {
+  color: #2f93e0;
+}
+body.colorSchemeBlue .modPriceBox.featured .info {
+  border-top: 4px solid #2f93e0;
+}
+body.colorSchemeBlue .modGallery .gallery-nav li.current {
+  border: 1px solid #2f93e0;
+}
+body.colorSchemeBlue .modGallery .gallery-nav li.current a {
+  color: #2f93e0;
+}
+body.colorSchemeBlue .links a {
+  color: #999;
+}
+body.colorSchemeBlue .links a:hover {
+  color: #333;
+}
+body.colorSchemeBlue .modBoxedSlider .caption p {
+  background: #2f93e0;
+}
+body.colorSchemeBlue .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #2f93e0;
+}
+body.colorSchemeBlue .modMasonryGallery .gallery-nav li.current a {
+  color: #2f93e0;
+}
+
+body.colorSchemeBrown a {
+  color: #b08b6e;
+}
+body.colorSchemeBrown a:hover {
+  color: #999;
+}
+body.colorSchemeBrown ul.shortcode-list i {
+  color: #b08b6e;
+}
+body.colorSchemeBrown .big-social i {
+  background-color: #b08b6e;
+  border: 3px solid #b08b6e;
+}
+body.colorSchemeBrown .big-social i:hover {
+  border: 3px solid #b08b6e;
+  background-color: rgba(176, 139, 110, 0);
+}
+body.colorSchemeBrown .button {
+  color: #fff;
+  background: #b08b6e;
+  border: 2px solid #b08b6e;
+}
+body.colorSchemeBrown .button:hover {
+  color: #fff;
+  background-color: rgba(176, 139, 110, 0.8);
+}
+body.colorSchemeBrown .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeBrown .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeBrown ul.info i {
+  border: 1px solid #b08b6e;
+}
+body.colorSchemeBrown ul.info i:hover {
+  background: #b08b6e;
+}
+body.colorSchemeBrown .pager a {
+  color: #999;
+}
+body.colorSchemeBrown .pager a:hover {
+  color: #b08b6e;
+}
+body.colorSchemeBrown #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeBrown #footer ul.socials a:hover i {
+  background: #b08b6e;
+}
+body.colorSchemeBrown .modIconText .icon-text-circle:hover i {
+  color: #b08b6e;
+}
+body.colorSchemeBrown .modSectionHeader .special-title h2::after {
+  background: #b08b6e;
+}
+body.colorSchemeBrown .modMilestone i {
+  color: #fff;
+  background: #b08b6e;
+}
+body.colorSchemeBrown .modTeamMember ul i {
+  background: #b08b6e;
+}
+body.colorSchemeBrown .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeBrown .modBlogPost h4 a:hover {
+  color: #b08b6e;
+}
+body.colorSchemeBrown .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeBrown .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeBrown .modBlogPost.big h3 a:hover {
+  color: #b08b6e;
+}
+body.colorSchemeBrown .modBarGraph .bars p.highlighted {
+  background: #b08b6e;
+}
+body.colorSchemeBrown .modBoxedTextSlider .box i {
+  color: #b08b6e;
+}
+body.colorSchemeBrown .modPriceBox.featured .info {
+  border-top: 4px solid #b08b6e;
+}
+body.colorSchemeBrown .modGallery .gallery-nav li.current {
+  border: 1px solid #b08b6e;
+}
+body.colorSchemeBrown .modGallery .gallery-nav li.current a {
+  color: #b08b6e;
+}
+body.colorSchemeBrown .links a {
+  color: #999;
+}
+body.colorSchemeBrown .links a:hover {
+  color: #333;
+}
+body.colorSchemeBrown .modBoxedSlider .caption p {
+  background: #b08b6e;
+}
+body.colorSchemeBrown .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #b08b6e;
+}
+body.colorSchemeBrown .modMasonryGallery .gallery-nav li.current a {
+  color: #b08b6e;
+}
+
+body.colorSchemePurple a {
+  color: #b865cd;
+}
+body.colorSchemePurple a:hover {
+  color: #999;
+}
+body.colorSchemePurple ul.shortcode-list i {
+  color: #b865cd;
+}
+body.colorSchemePurple .big-social i {
+  background-color: #b865cd;
+  border: 3px solid #b865cd;
+}
+body.colorSchemePurple .big-social i:hover {
+  border: 3px solid #b865cd;
+  background-color: rgba(184, 101, 205, 0);
+}
+body.colorSchemePurple .button {
+  color: #fff;
+  background: #b865cd;
+  border: 2px solid #b865cd;
+}
+body.colorSchemePurple .button:hover {
+  color: #fff;
+  background-color: rgba(184, 101, 205, 0.8);
+}
+body.colorSchemePurple .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemePurple .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemePurple ul.info i {
+  border: 1px solid #b865cd;
+}
+body.colorSchemePurple ul.info i:hover {
+  background: #b865cd;
+}
+body.colorSchemePurple .pager a {
+  color: #999;
+}
+body.colorSchemePurple .pager a:hover {
+  color: #b865cd;
+}
+body.colorSchemePurple #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemePurple #footer ul.socials a:hover i {
+  background: #b865cd;
+}
+body.colorSchemePurple .modIconText .icon-text-circle:hover i {
+  color: #b865cd;
+}
+body.colorSchemePurple .modSectionHeader .special-title h2::after {
+  background: #b865cd;
+}
+body.colorSchemePurple .modMilestone i {
+  color: #fff;
+  background: #b865cd;
+}
+body.colorSchemePurple .modTeamMember ul i {
+  background: #b865cd;
+}
+body.colorSchemePurple .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemePurple .modBlogPost h4 a:hover {
+  color: #b865cd;
+}
+body.colorSchemePurple .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemePurple .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemePurple .modBlogPost.big h3 a:hover {
+  color: #b865cd;
+}
+body.colorSchemePurple .modBarGraph .bars p.highlighted {
+  background: #b865cd;
+}
+body.colorSchemePurple .modBoxedTextSlider .box i {
+  color: #b865cd;
+}
+body.colorSchemePurple .modPriceBox.featured .info {
+  border-top: 4px solid #b865cd;
+}
+body.colorSchemePurple .modGallery .gallery-nav li.current {
+  border: 1px solid #b865cd;
+}
+body.colorSchemePurple .modGallery .gallery-nav li.current a {
+  color: #b865cd;
+}
+body.colorSchemePurple .links a {
+  color: #999;
+}
+body.colorSchemePurple .links a:hover {
+  color: #333;
+}
+body.colorSchemePurple .modBoxedSlider .caption p {
+  background: #b865cd;
+}
+body.colorSchemePurple .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #b865cd;
+}
+body.colorSchemePurple .modMasonryGallery .gallery-nav li.current a {
+  color: #b865cd;
+}
+
+body.colorSchemeLime-green a {
+  color: #b4d931;
+}
+body.colorSchemeLime-green a:hover {
+  color: #999;
+}
+body.colorSchemeLime-green ul.shortcode-list i {
+  color: #b4d931;
+}
+body.colorSchemeLime-green .big-social i {
+  background-color: #b4d931;
+  border: 3px solid #b4d931;
+}
+body.colorSchemeLime-green .big-social i:hover {
+  border: 3px solid #b4d931;
+  background-color: rgba(180, 217, 49, 0);
+}
+body.colorSchemeLime-green .button {
+  color: #fff;
+  background: #b4d931;
+  border: 2px solid #b4d931;
+}
+body.colorSchemeLime-green .button:hover {
+  color: #fff;
+  background-color: rgba(180, 217, 49, 0.8);
+}
+body.colorSchemeLime-green .button.boxed {
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+}
+body.colorSchemeLime-green .button.boxed:hover {
+  color: #333;
+  background: #fff;
+}
+body.colorSchemeLime-green ul.info i {
+  border: 1px solid #b4d931;
+}
+body.colorSchemeLime-green ul.info i:hover {
+  background: #b4d931;
+}
+body.colorSchemeLime-green .pager a {
+  color: #999;
+}
+body.colorSchemeLime-green .pager a:hover {
+  color: #b4d931;
+}
+body.colorSchemeLime-green #footer ul.socials i {
+  background: #eee;
+  color: #333;
+}
+body.colorSchemeLime-green #footer ul.socials a:hover i {
+  background: #b4d931;
+}
+body.colorSchemeLime-green .modIconText .icon-text-circle:hover i {
+  color: #b4d931;
+}
+body.colorSchemeLime-green .modSectionHeader .special-title h2::after {
+  background: #b4d931;
+}
+body.colorSchemeLime-green .modMilestone i {
+  color: #fff;
+  background: #b4d931;
+}
+body.colorSchemeLime-green .modTeamMember ul i {
+  background: #b4d931;
+}
+body.colorSchemeLime-green .modBlogPost h4 a {
+  color: #333;
+}
+body.colorSchemeLime-green .modBlogPost h4 a:hover {
+  color: #b4d931;
+}
+body.colorSchemeLime-green .modBlogPost.big h3 {
+  font-size: 2.5rem;
+}
+body.colorSchemeLime-green .modBlogPost.big h3 a {
+  color: #333;
+}
+body.colorSchemeLime-green .modBlogPost.big h3 a:hover {
+  color: #b4d931;
+}
+body.colorSchemeLime-green .modBarGraph .bars p.highlighted {
+  background: #b4d931;
+}
+body.colorSchemeLime-green .modBoxedTextSlider .box i {
+  color: #b4d931;
+}
+body.colorSchemeLime-green .modPriceBox.featured .info {
+  border-top: 4px solid #b4d931;
+}
+body.colorSchemeLime-green .modGallery .gallery-nav li.current {
+  border: 1px solid #b4d931;
+}
+body.colorSchemeLime-green .modGallery .gallery-nav li.current a {
+  color: #b4d931;
+}
+body.colorSchemeLime-green .links a {
+  color: #999;
+}
+body.colorSchemeLime-green .links a:hover {
+  color: #333;
+}
+body.colorSchemeLime-green .modBoxedSlider .caption p {
+  background: #b4d931;
+}
+body.colorSchemeLime-green .modMasonryGallery .gallery-nav li.current {
+  border: 1px solid #b4d931;
+}
+body.colorSchemeLime-green .modMasonryGallery .gallery-nav li.current a {
+  color: #b4d931;
+}

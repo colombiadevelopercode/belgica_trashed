@@ -1,0 +1,145 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Páginas{% endblock %}
+{% block content %}
+
+<script>
+    document.getElementById("about_show").style.display = "none";
+    document.getElementById("services_show").style.display = "none";
+    document.getElementById("contact_show").style.display = "none";
+</script>
+     
+<!-- NECESARIOS PARA EL INPUT FILE -->
+<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>            
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Fuentes -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+<link href="{% static 'core/vendor/materialize/css/materialize.min.css' %}" rel="stylesheet">
+<link href="{% static 'core/vendor/materialize/css/materialize.css' %}" rel="stylesheet">    
+<link href="{% static 'core/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'core/css/main.css' %}" rel="stylesheet">
+<link href="{% static 'core/js/main.js' %}" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="form-send">
+    <div id='divLoading'>
+        <div>
+            <img src="{% static 'core/img/loading.svg' %}" alt="loading">
+        </div>
+    </div>
+    <div class="container" >
+        <br><br><br><br>
+        <section style="text-align:center ; ">
+            <div class="row ">
+                <div class="col s12 ">
+                    <div class="card  background-form" style="border-radius: 20px ;" >
+                        <div class="card-content black-text">
+                            <form action="{% url 'upload_file' %}" method="post" enctype="multipart/form-data"
+                                id="formulario">
+                                <input type="hidden" id="tok" value='{% csrf_token %}'>
+                                {% csrf_token %}
+    
+                                <div class="row">
+                                    <div class="file-field input-field">
+                                        <div class="btn waves-effect waves-light">
+                                            <i class="material-icons left">cloud_upload</i>Excel
+                                            <input type="file" id="file" name="file" class="white-text" accept=".xlsx">
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input class="file-path validate white-text " type="text" id="text-file">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="text-align: center;">
+                                    <button class="btn waves-effect waves-light" type="submit">Benijden
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                </div>
+                            </form>
+                            <!--
+                            <div class="row" style="text-align:left ;">
+                                <div class="">
+                                  <label class="white-text" >Referentie transaction</label>
+                                  <div class="card-panel teal lighten-5" id="status">
+                                    <span class="black-text" id="response_status">
+                                    </span>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="row" style="text-align:left ;">
+                                <div class="">
+                                  <label class="white-text" >Errors</label>
+                                  <div class="card-panel red lighten-5 textarea">
+                                    <span class="black-text " id="response_errors">
+                                    </span>
+                                  </div>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+        <script>
+            let divLoading = document.querySelector("#divLoading");
+            function getCookie(cname) {
+                var name = cname + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') c = c.substring(1);
+                    if (c.indexOf(name) == 0)
+                        return c.substring(name.length, c.length);
+                }
+                return "";
+            }
+          
+            formulario.onsubmit = async (e) => {
+                e.preventDefault();
+                divLoading.style.display = "flex";
+                
+                let fetchData = {
+                    method: 'POST',
+                    body: new FormData(formulario),
+                    csrfmiddlewaretoken: '{{ csrf_token }}'
+                    //headers: { "X-CSRFToken": getCookie("csrftoken") },
+                }
+                let url = "{% url 'upload_file' %}"
+                fetch(url, fetchData).then(response => response.json()).then(function (response) {
+                    if (response.response) {
+                        //var text = document.createTextNode(response.referenties);
+                        //document.getElementById("response_status").appendChild(text);
+                        //text = document.createTextNode(response.errors);
+                        //document.getElementById("response_errors").appendChild(text);
+
+                        divLoading.style.display = "none";
+                        Swal.fire({
+                            title: 'Good!',
+                            text: 'Successful request',
+                            icon: 'success',
+                            confirmButtonText: 'ok'
+                        })
+                    } else {
+                        divLoading.style.display = "none";
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'Wrong request, '+response.msg,
+                            icon: 'error',
+                            confirmButtonText: 'ok'
+                        })
+    
+                    }
+                });
+            };
+        </script>
+    </div>
+</div>
+
+{% endblock %}

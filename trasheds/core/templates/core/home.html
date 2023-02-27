@@ -1,0 +1,327 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+
+<div id='main' role='main'>      
+  <div class='mod modFullscreenSlider'>
+    <div class='fullscreen_slideshow' data-autostop='off'>
+      <a class='sequence-prev' href='javascript:void(0);'>
+        <span></span>
+      </a>
+      <a class='sequence-next' href='javascript:void(0);'>
+        <span></span>
+      </a>
+      <ul class='sequence-pagination'>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <ul class='sequence-canvas'>
+        <li class='frame centered-text static'>
+          <h1>Waarom wij</h1>
+          <p>Uw all in one stop voor een correcte rapportage naar MATIS</p>
+          <div class='two spacing'></div>
+          <div class='buttons-wrapper'>
+            <a class='button boxed small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>View Portfolio</a>
+            <a class='button small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Purchase Now</a>
+          </div>
+          <div class='bg slide1'></div>
+        </li>
+        <li class='frame centered-text'>
+          <h1>In de cloud</h1>
+          <p></p>
+          <div class='two spacing'></div>
+          <div class='buttons-wrapper'>
+            <a class='button small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Purchase Now</a>
+            <a class='button boxed small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>View Features</a>
+          </div>
+          <div class='bg slide2' ></div>
+        </li>
+        <li class='frame centered-text'>
+          <h1>Snel en gebruiksvriendelijk</h1>
+          <p></p>
+          <div class='two spacing'></div>
+          <div class='buttons-wrapper'>
+            <a class='button small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Purchase Now</a>
+            <a class='button boxed small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>View Features</a>
+          </div>
+          <div class='bg slide1' ></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a id='about'></a>
+  <div class='full'>
+    <div class='row'>
+      <div class='large-10 columns large-centered'>
+        <div class='spacing'></div>
+        <div class='alt mod modSectionHeader'>
+          <div class='special-title centered-text'>
+            <h2 >
+              Ons verhaal
+            </h2>
+          </div>
+        </div>
+        <div class='spacing'></div>
+        <p class='centered-text' style='font-size: 1.6rem'>
+          Na analyse zagen we dat er maar weinig oplossingen zijn op de markt die voldoen aan de huidige MATIS vereisten. Daarom hebben we besloten om het probleem zelf aan te pakken door een webapplicatie te creëren die de rapportage naar MATIS snel en gemakkelijk kan oplossen.
+        </p>
+        <div class='two spacing'></div>
+        <p class='centered-text'>
+          <img width="260" height="197" alt="" src="{% static 'core/img/fondo_dos.jpg' %}" />
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='full parallax img1' >
+    <div class='row'>
+      <div class='large-10 large-centered columns'>
+        <div class='alt mod modSectionHeader'>
+          <div class='special-title centered-text'>
+            
+          </div>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-folder-open'></i>
+          <strong data-from='0' data-to='69'>&nbsp;</strong>
+          <span>Projects Completed</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-coffee'></i>
+          <strong data-from='0' data-to='726'>&nbsp;</strong>
+          <span>Cups of coffee offered</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-thumbs-up'></i>
+          <strong data-from='0' data-to='59'>&nbsp;</strong>
+          <span>Happy clients</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-file-text'></i>
+          <strong data-from='0' data-to='21'>&nbsp;</strong>
+          <span>Articles Published</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+  <a id='services'></a>
+  <div class='full' style='background: #f5f5f5'>
+    <div class='row'>
+      <div class='large-10 large-centered columns'>
+        <div class='alt mod modSectionHeader'>
+          <div class='special-title centered-text'>
+            <h2>
+              onze diensten
+            </h2>
+          </div>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='large-12 columns'>
+        <div class='mod modBoxedTextSlider'>
+          <div class='boxes'>
+            <div class='box'>
+              <i class='fa fa-trophy'></i>
+              <h4>Design</h4>
+              <p>We transformeren uw gegevens conform het MATIS formaat</p>
+            </div>
+            <div class='box'>
+              <i class='fa fa-compass'></i>
+              <h4>Art direction</h4>
+              <p>Ons programma duidt de mogelijke fouten aan voor een gemakkelijke correctie</p>
+            </div>
+            <div class='box'>
+              <i class='fa fa-star-half-empty'></i>
+              <h4>Branding</h4>
+              <p>Raadpleeg uw rapporten, altijd en overal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='four spacing'></div>
+  </div>
+  <div class='full parallax img2'>
+    <div class='row'>
+      <div class='large-10 large-centered columns'>
+        <div class='alt mod modSectionHeader'>
+          <div class='special-title centered-text'>
+            <h2 style='color: #fff'>
+              Onze troeven
+            </h2>
+          </div>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='large-5 columns'>
+        <div class='mod modBarGraph'>
+          <ul class='bars'>
+            <li>
+              <h4 style='color: #fff;'>
+                Gepersonaliseerde service
+                <strong>84%</strong>
+              </h4>
+              <p class='highlighted' data-percent='84'></p>
+            </li>
+            <li>
+              <h4 style='color: #fff;'>
+                Ontwikkeld in samenwerking met mensen uit de afvalverwerkingssector
+                <strong>99%</strong>
+              </h4>
+              <p class='highlighted' data-percent='99'></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='large-6 columns'>
+        <div class='mod modBarGraph'>
+          <ul class='bars'>
+            <li>
+              <h4 style='color: #fff;'>
+                100% in de cloud, geen installatie van software vereist.
+                <strong>90%</strong>
+              </h4>
+              <p class='highlighted' data-percent='90'></p>
+            </li>
+            <li>
+              <h4 style='color: #fff;'>
+                We zijn overtuigd van onze service, niet tevreden? Geld terug!
+                <strong>16%</strong>
+              </h4>
+              <p class='highlighted' data-percent='66'></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='four spacing'></div>
+  </div>
+  
+  <a id='contact'></a>
+  <div class='full'>
+    <div class='row'>
+      <div class='large-12 columns'>
+        <div class='alt mod modSectionHeader'>
+          <div class='special-title centered-text'>
+            <h2>
+              Interesse? laat uw gegevens en we bellen u op
+            </h2>
+          </div>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='medium-8 columns'>
+        <div class='form' >
+          <div class='row'>
+            <form  method="post" id="contacts">
+              <div class='large-12 columns'>               
+                <p class="green-text text-darken-4" id="notiffication"></p>
+              </div>
+              <div class='medium-12 columns'>
+                <input class='required' id="icon_face" name="name" placeholder='NAAM' type='text'>
+                <input class='required email' id="icon_email" type="email" name="email" placeholder='EMAIL' >
+                <input class='required' id="icon_telephone" type="tel" name="phone" placeholder='GSM' >
+                <input class='button white' type='submit'>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+      <div class='medium-4 columns'>
+        <div class='contact-details'>
+          <h4>Our location:</h4>
+          <p>41 Dean Street, London, UK</p>
+          <h4>Our Phone:</h4>
+          <p>+86 (03) 9810 4612</p>
+          <h4>Fax:</h4>
+          <p>+6102 236338 5456</p>
+          <h4>Our Email:</h4>
+          <p>info@wrap-team.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='full no-padding' style='background: #111'>
+    <div class='two spacing'></div>
+    <div class='row'>
+      <div class='large-12 columns'>
+        <p>©2022 Matis. All rights reserved.</p>
+      </div>
+    </div>
+    <div class='spacing'></div>
+  </div>
+</div>
+
+<script>
+  function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1);
+      if (c.indexOf(name) == 0)
+        return c.substring(name.length, c.length);
+    }
+    return "";
+  }
+
+
+  contacts.onsubmit = async (e) => {
+    e.preventDefault();
+
+    if (
+      document.getElementById("icon_face").value == "" ||
+      document.getElementById("icon_email").value == "" ||
+      document.getElementById("icon_telephone").value == ""
+    ){
+
+      let alert = document.getElementById("notiffication");
+      alert.innerHTML = "Gegevens ontbreken om in te voeren";
+      return;
+    }
+
+    let fetchData = {
+      method: 'POST',
+      body: new FormData(contacts),
+      headers: { "X-CSRFToken": getCookie("csrftoken") },
+    }
+    let url = "{% url 'upload_contact' %}"
+    fetch(url, fetchData).then(response => response.json()).then(function (response) {
+      if (response.response) {
+        document.getElementById("icon_face").value = "";
+        document.getElementById("icon_email").value = "";
+        document.getElementById("icon_telephone").value = "";
+
+        let alert = document.getElementById("notiffication");
+        alert.innerHTML = "Estaremos en contacto contigo.";
+      }
+    });
+  };
+</script>
+{% endblock %}
